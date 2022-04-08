@@ -1,3 +1,3 @@
 Testing for the lab. Hallo.
 
-[Go back to main](index.html)
+[Go back to main](https://frndlydragon.github.io/cse15l-lab-reports/)
