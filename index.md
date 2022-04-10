@@ -1,6 +1,7 @@
-Test test
-
 [**Lab Report 1**](https://frndlydragon.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+# Nothing else to see here, yep.
+Test test
 
 *Test*
 
