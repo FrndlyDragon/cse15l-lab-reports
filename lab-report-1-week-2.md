@@ -14,4 +14,10 @@ It's quite a simple procress. All it requires is typing in a simple line inside 
 
 `ssh [Username]@server`
 
-The server in this case is ieng6.ucsd.edu. You then will be prompted to type a password in order to access the server.
+The server in this case is ieng6.ucsd.edu. You then will be prompted to type a password in order to access the server. Once you type in your password, your terminal will print out something much like that in the image above. Note that when you are prompted for a password, nothing will show on the terminal as you type. This is for security, so do not be scared and think your keyboard is broken.
+
+## Part 3: Controling a Remote Computer
+![ssh_commands](ssh_commands.png)
+You can input commands now that will do various things to the remote computer. For instance, you can use the cp command to copy a file from the remote computer.
+
+In the image above, you can see that command being used to try and copy a file named `hello.txt` however it errors as there is no file called `hello.txt`.
