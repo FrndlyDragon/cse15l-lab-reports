@@ -7,7 +7,7 @@ The first [test case](https://github.com/FrndlyDragon/markdown-parser/blob/main/
 
 Symptom: Wrong output. It should be an empty array, but it is not.
 
-Test Case: Only using parenthesis.
+Test Case: Using parenthesis with no brackets preceding.
 
 The issue with the program for this test case was that it was not looking for proper syntax and was only looking for open parenthesis. It ignored the fact that brackets need to precede parenthesis.
 
@@ -39,10 +39,10 @@ A third error was caused by this [test case](https://github.com/FrndlyDragon/mar
 
 Symptom: OutOfMemoryError was thrown
 
-Input: Markdown file that did not end with a link
+Test Case: Markdown file that did not end with a link.
 
 
-Bug: An OutOfMemoryError is caused by some process that is running without end until it takes up too much space and crashes the program. This error was caused by a lack of a way to break out of the while loop. When there is something after the last link, the program continually searches for another link but is unable to find one.
+Bug: An OutOfMemoryError is caused by some process that is running without end until it takes up too much space and crashes the program. This error was caused by a lack of a way to break out of the while loop. When there is something after the last link, like in the test case, the program continually searches for another link but is unable to find one. This causes the error to be thrown.
 
 The fix for this was a simple addition of a way to detect when the file ended as seen [here](https://github.com/FrndlyDragon/markdown-parser/commit/579e858bf81d34f19cc7a80e59d4ab339c28d6e3).
 
