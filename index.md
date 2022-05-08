@@ -2,6 +2,8 @@
 
 [**Lab Report 2**](https://frndlydragon.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
+[**Lab Report 3**](https://frndlyDragon.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
 # Nothing else to see here, yep.
 Test test
 
