@@ -20,6 +20,7 @@ We can also use this shortened version when using the ```scp``` command. As seen
 To generate a key as seen above, and link it to your Github account, you need to access your remote account and use the ```ssh-keygen``` command to create a key for your remote account. 
 
 ![image](sshKeys.PNG)
+
 The key will be stored in the .ssh directory within the remote server. Above, the key that we are interested in is the ```id_rsa.pub``` file. We copy this key to paste to Github.
 
 ![image](remoteEditing.PNG)
