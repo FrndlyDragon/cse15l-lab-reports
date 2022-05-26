@@ -1,5 +1,7 @@
 [Back to main page](https://frndlydragon.github.io/cse15l-lab-reports/)
 
+We will be examining two different MarkdownParser repositories. [This](https://github.com/FrndlyDragon/markdown-parser) is mine. [This](https://github.com/21KennethTran/markdown-parser) one is the other that we will be looking at.
+
 ## Test Case 1
 **My MarkdownParser**
 
